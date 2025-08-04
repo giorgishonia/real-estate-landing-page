@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Real Palace - Luxury Redefined</title>
+    <title>LuxPalace</title>
+    <link rel="icon" type="image/png" href="favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
@@ -135,7 +136,10 @@
     <!-- Navigation -->
     <nav class="fixed w-full z-50 transition-all duration-500 py-4 bg-transparent" id="navbar">
         <div class="container mx-auto px-4 sm:px-6 flex justify-between items-center">
-            <div class="text-xl sm:text-2xl font-serif font-bold gold-text">REAL PALACE</div>
+            <div class="text-xl sm:text-2xl font-serif font-bold">
+                <img src="luxpalace-small.png" alt="LUX PALACE" class="h-8 sm:h-10 md:hidden">
+                <img src="luxpalace-logo.png" alt="LUX PALACE" class="h-8 sm:h-10 hidden md:block">
+            </div>
             <div class="hidden md:flex space-x-8">
                 <a href="#home" class="menu-item text-white hover:text-gray-300">Home</a>
                 <a href="#about" class="menu-item text-white hover:text-gray-300">About</a>
@@ -182,9 +186,9 @@
         <div class="container mx-auto px-4 sm:px-6">
             <div class="flex flex-col lg:flex-row items-center">
                 <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
-                    <h2 class="text-3xl sm:text-4xl font-serif mb-6" id="about-title">The Real Palace Legacy</h2>
-                    <p class="text-gray-600 mb-6" id="about-text-1">Founded in 1995, Real Palace has been at the forefront of luxury real estate development, creating iconic residences that stand the test of time.</p>
-                    <p class="text-gray-600 mb-8" id="about-text-2">Our philosophy centers on impeccable craftsmanship, timeless design, and an unwavering commitment to excellence. Each Real Palace property is a masterpiece, blending architectural brilliance with the finest materials.</p>
+                    <h2 class="text-3xl sm:text-4xl font-serif mb-6" id="about-title">The LUX PALACE Legacy</h2>
+                    <p class="text-gray-600 mb-6" id="about-text-1">Founded in 1995, LUX PALACE has been at the forefront of luxury real estate development, creating iconic residences that stand the test of time.</p>
+                    <p class="text-gray-600 mb-8" id="about-text-2">Our philosophy centers on impeccable craftsmanship, timeless design, and an unwavering commitment to excellence. Each LUX PALACE property is a masterpiece, blending architectural brilliance with the finest materials.</p>
                     <button class="gold-bg text-white px-6 py-2 rounded-full font-medium hover:bg-opacity-90 transition-all" id="about-button">Our Story</button>
                 </div>
                 <div class="lg:w-1/2 relative">
@@ -212,7 +216,7 @@
         <div class="absolute inset-0 bg-black bg-opacity-40"></div>
         <div class="container mx-auto px-4 sm:px-6 text-center relative z-10 text-white">
             <h2 class="text-4xl md:text-5xl font-serif mb-6" id="parallax-title">Uncompromising Excellence</h2>
-            <p class="text-xl max-w-2xl mx-auto" id="parallax-text">Every Real Palace residence is a testament to our dedication to quality, innovation, and timeless elegance.</p>
+            <p class="text-xl max-w-2xl mx-auto" id="parallax-text">Every LUX PALACE residence is a testament to our dedication to quality, innovation, and timeless elegance.</p>
         </div>
     </section>
 
@@ -340,7 +344,7 @@
                     <div class="gold-text text-2xl mb-4">
                         <i class="fas fa-quote-left"></i>
                     </div>
-                    <p class="text-gray-600 mb-6">"Real Palace exceeded all our expectations. The attention to detail and quality of craftsmanship is unmatched in the industry."</p>
+                    <p class="text-gray-600 mb-6">"LUX PALACE exceeded all our expectations. The attention to detail and quality of craftsmanship is unmatched in the industry."</p>
                     <div class="flex items-center">
                         <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Sarah Johnson" class="w-12 h-12 rounded-full mr-4">
                         <div>
@@ -354,7 +358,7 @@
                     <div class="gold-text text-2xl mb-4">
                         <i class="fas fa-quote-left"></i>
                     </div>
-                    <p class="text-gray-600 mb-6">"From the initial consultation to the final handover, the Real Palace team provided exceptional service and expertise."</p>
+                    <p class="text-gray-600 mb-6">"From the initial consultation to the final handover, the LUX PALACE team provided exceptional service and expertise."</p>
                     <div class="flex items-center">
                         <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen" class="w-12 h-12 rounded-full mr-4">
                         <div>
@@ -368,7 +372,7 @@
                     <div class="gold-text text-2xl mb-4">
                         <i class="fas fa-quote-left"></i>
                     </div>
-                    <p class="text-gray-600 mb-6">"Living in a Real Palace property is truly a lifestyle upgrade. The amenities and community are second to none."</p>
+                    <p class="text-gray-600 mb-6">"Living in a LUX PALACE property is truly a lifestyle upgrade. The amenities and community are second to none."</p>
                     <div class="flex items-center">
                         <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Emily Rodriguez" class="w-12 h-12 rounded-full mr-4">
                         <div>
@@ -416,7 +420,7 @@
                             </div>
                             <div>
                                 <h4 class="font-bold mb-1">Email</h4>
-                                <p class="text-gray-600">info@realpalace.com</p>
+                                <p class="text-gray-600">info@luxpalace.com</p>
                             </div>
                         </div>
                     </div>
@@ -462,7 +466,7 @@
         <div class="container mx-auto px-4 sm:px-6">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>
-                    <h3 class="text-2xl font-serif mb-4">REAL PALACE</h3>
+                    <h3 class="text-2xl font-serif mb-4">LUX PALACE</h3>
                     <p class="text-gray-400">Redefining luxury living since 1995.</p>
                 </div>
                 
@@ -509,7 +513,7 @@
             </div>
             
             <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-                <p>&copy; 2025 Real Palace. All rights reserved.</p>
+                <p>&copy; 2025 LUX PALACE. All rights reserved.</p>
             </div>
         </div>
     </footer>
